@@ -1,0 +1,84 @@
+
+@charset 'utf-8';
+@import './variables.less';
+
+.login-Form{
+    color: @gray;
+     // 输入框
+     .form-group{
+        display: flex!important;
+        margin: 5px 0px;
+        height: 50px;
+        border-bottom: 1px solid #e4e4e4;
+
+        .text-button{
+            color: @black!important;
+            line-height: 40px;
+            margin: 0 15px;
+         }
+             
+
+        .form-input,.form-button{
+            
+            width:48%!important;
+            color:@gray;
+        }
+
+        // 输入框字体颜色
+        .form-input{
+            color: @white!important;
+           
+        }  
+        
+        // 验证码框
+        .form-button{
+            border: 1px solid @gray;
+            border-radius: 5px;
+            width: 26%!important;
+            height: 30px;
+            margin-top: 5px;
+            margin-right: 5px;
+        }
+    }
+
+    // 注册按钮
+    .form-button.block{
+        
+        margin: 0 auto;
+        height: 46px;
+        width: 93%!important;
+        background: #9CDCA7;
+        color: @white;
+        margin-bottom: 20px;
+    }
+
+    // 同意协议
+    .isAgree{
+        display: flex;
+        margin:15px 0 20px 15px;
+        font-size: 14px;
+
+        // 复选框
+        .checkBox{
+            width: 18px;
+            height: 18px;
+            background: @white;
+        }
+
+        .agree{
+            margin-left: 5px;
+            
+        }
+
+        .text-button{
+            margin-left: 4px;
+        }
+
+    }
+
+    // 已有账号
+    .text-button{
+        color: @blue;
+        margin: 0 15px;
+    }
+}

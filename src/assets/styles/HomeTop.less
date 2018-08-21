@@ -1,0 +1,37 @@
+@charset 'utf-8';
+
+@import './variables.less';
+
+.header{
+    color: @white;
+     
+    .am-navbar-left, .am-navbar-right{
+        flex:0;
+        width: 72px;
+        font-size: 14px;
+        
+        p{
+            width: 28px;
+            
+        }
+
+    }
+    .search-box{
+        background-color: @white;
+        color: #ccc;
+        font-size: 14px;
+        line-height: 30px;
+        border-radius: 7px;
+        margin: 0 5px;
+        padding-left: 5px;
+
+        flex:1;
+
+        span{
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            margin-right: 14px;
+        }
+    }
+}
